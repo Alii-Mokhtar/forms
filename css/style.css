@@ -29,3 +29,13 @@ body{
     padding: 10px;
     box-shadow: 10px 10px 15px #d0d3d6 , -10px -10px 10px  white ;
 }
+
+.cart__login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    margin-top: 5px;
+    font-weight: 900;
+    color: gray;    
+}
