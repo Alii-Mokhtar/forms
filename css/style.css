@@ -16,6 +16,7 @@ body{
     border-radius: 20px;
     background-color: #ecf0f3;
     box-shadow: 10px 10px 15px #d0d3d6 , -10px -10px 10px  white ;
+    margin-top: 30px;
 }
 
 .cart__logo{
@@ -93,4 +94,34 @@ color: gray;
     margin-left: 10px;
     font-size: 12px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+@media screen and (min-width: 1300px ) {
+    .cart{width: 454.717px;}
+}
+
+@media screen and (max-width:750px){
+    .cart{
+        margin-left: 75px;
+    }
+    .moon{
+        position: absolute;
+        left:-100px;
+        top: -50px;
+        width: 500px;
+        animation-duration: 90s;
+    }   
+}
+
+@media screen and (max-width:550px){
+    .cart{
+        width:192.633px;
+    }
+    .moon{
+        left: unset;
+        top: -50px;
+        right: -100px;
+        width: 450px;
+    }
 }
