@@ -44,9 +44,11 @@ body{
     width: 80%;
     margin-left: auto;
     margin-top: 20px;
+    
 }
 .cart__section--text{
 color: gray;
+
 }
 .cart__section--form{
     width: 80%;
@@ -55,5 +57,13 @@ color: gray;
     background-color: #ecf0f3;
     box-shadow: 5px 5px 5px inset #d0d3d6 , -7px -7px 7px inset  white ;
     border: none;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.cart__section-login-button{
+    width: 80%;
+    height: 30px;
+    border-radius: 50px;
     margin-top: 10px;
 }
